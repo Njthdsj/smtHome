@@ -36,6 +36,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/jia" />
 
+
     <LinearLayout
         android:id="@+id/shebei"
         android:layout_width="371dp"
@@ -46,4 +47,15 @@
         tools:layout_editor_absoluteX="0dp"
         tools:ignore="MissingConstraints"
         android:background="#3ADCCC"/>
+
+    <LinearLayout
+        android:id="@+id/shebei1"
+        android:layout_width="371dp"
+        android:layout_height="301dp"
+        android:layout_marginTop="396dp"
+        android:background="#3ADCCC"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
